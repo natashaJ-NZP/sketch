@@ -1,0 +1,22 @@
+uuid: 4576b41f-480d-4870-9f3d-eb41bf46acd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sphynx
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: sphynx_powered
+theme: sphynx
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 420ba35a-0446-4245-8319-9b4f72ba77c2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sphynx
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: sphynx_page_title
+theme: sphynx
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

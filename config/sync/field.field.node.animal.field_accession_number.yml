@@ -1,0 +1,23 @@
+uuid: 8dae2927-9e4a-4cb5-a649-8a82a58b7921
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_accession_number
+    - node.type.animal
+id: node.animal.field_accession_number
+field_name: field_accession_number
+entity_type: node
+bundle: animal
+label: 'Accession Number'
+description: 'This is the number that identifies the animal being assessed.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

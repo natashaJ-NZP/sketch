@@ -54,3 +54,4 @@ db-backups/
 
 #ignore VSCODE Generated files
 .vscode/
+/.editorconfig

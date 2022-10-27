@@ -1,0 +1,8 @@
+uuid: e02eb23f-a0eb-429b-9472-a3fb049e19b4
+langcode: en
+status: true
+dependencies: {  }
+name: Species
+vid: species
+description: 'The name of the animal''s species'
+weight: 0

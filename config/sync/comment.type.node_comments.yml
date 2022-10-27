@@ -1,0 +1,13 @@
+uuid: 176f8e31-a4f5-412c-9c86-6ea131f4b1d1
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - migrate_example_setup
+_core:
+  default_config_hash: yy3ElLamClUaq0EA3lRtMZiSJlryYzhsU7saRZt6kYQ
+id: node_comments
+label: 'Node comments'
+target_entity_type_id: node
+description: ''

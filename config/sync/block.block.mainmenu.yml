@@ -1,0 +1,25 @@
+uuid: 5d7a9476-d438-4694-9381-93de5a53a398
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-menu
+  module:
+    - system
+  theme:
+    - sphynx
+id: mainmenu
+theme: sphynx
+region: menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main-menu'
+settings:
+  id: 'system_menu_block:main-menu'
+  label: 'Main Menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

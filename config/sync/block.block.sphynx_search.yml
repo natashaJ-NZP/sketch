@@ -1,0 +1,23 @@
+uuid: b6c833e8-e784-4826-878e-339beb8e8452
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - sphynx
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: sphynx_search
+theme: sphynx
+region: header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

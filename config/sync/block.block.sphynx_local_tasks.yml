@@ -1,0 +1,22 @@
+uuid: ff66db33-7e29-465b-97b6-8d6f09e443bd
+langcode: en
+status: false
+dependencies:
+  theme:
+    - sphynx
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: sphynx_local_tasks
+theme: sphynx
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,14 +1,5 @@
-name: Sphynx Theme
-description: 'This is a theme created from a YouTube video tutorial on Creating a Drupal theme using Twig'
-type: theme
-'base theme': stable9
+name: CRUD Operations
+description: Custom Module with CRUD Operations
+type: module
 core_version_requirement: ^8 || ^9
 package: Custom
-libraries: 
-  - sphynx/styling
-regions:
-  header: Header
-  menu: Main Menu
-  content: Content
-  sidebar: Sidebar
-  footer: Footer

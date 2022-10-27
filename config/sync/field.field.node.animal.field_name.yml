@@ -1,0 +1,19 @@
+uuid: 7cb7f0e7-71e5-4baa-a7e6-d91d9bba48dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.animal
+id: node.animal.field_name
+field_name: field_name
+entity_type: node
+bundle: animal
+label: Name
+description: 'The animal''s pet name (if applicable. For example, the animal''s name is "Spots").'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

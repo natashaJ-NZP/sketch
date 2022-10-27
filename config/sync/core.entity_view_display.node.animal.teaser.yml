@@ -1,0 +1,40 @@
+uuid: 373eb32b-8297-4d48-a6fa-a6967963e9f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.animal.body
+    - field.field.node.animal.field_accession_number
+    - field.field.node.animal.field_assessment_date
+    - field.field.node.animal.field_assessor_name
+    - field.field.node.animal.field_name
+    - field.field.node.animal.field_text
+    - node.type.animal
+  module:
+    - text
+    - user
+id: node.animal.teaser
+targetEntityType: node
+bundle: animal
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_accession_number: true
+  field_assessment_date: true
+  field_assessor_name: true
+  field_name: true
+  field_text: true

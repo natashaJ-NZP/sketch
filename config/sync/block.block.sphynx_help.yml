@@ -1,0 +1,22 @@
+uuid: 6dd5255b-211a-4710-af93-3697c3501421
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - sphynx
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: sphynx_help
+theme: sphynx
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

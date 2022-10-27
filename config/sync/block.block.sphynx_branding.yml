@@ -1,0 +1,25 @@
+uuid: acc1aa87-8c13-469f-8364-8cb5ac050adb
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - sphynx
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: sphynx_branding
+theme: sphynx
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

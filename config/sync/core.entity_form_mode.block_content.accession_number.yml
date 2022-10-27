@@ -1,0 +1,10 @@
+uuid: 28751bc3-5da4-4e36-9f97-5241e22b6ee8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.accession_number
+label: 'Accession Number'
+targetEntityType: block_content
+cache: true

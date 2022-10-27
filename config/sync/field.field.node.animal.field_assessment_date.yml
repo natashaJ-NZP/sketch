@@ -1,0 +1,21 @@
+uuid: 6d459de9-9a02-499e-85e6-5e12e5af919e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_assessment_date
+    - node.type.animal
+  module:
+    - datetime
+id: node.animal.field_assessment_date
+field_name: field_assessment_date
+entity_type: node
+bundle: animal
+label: 'Assessment Date'
+description: 'The date of the assessment being performed.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,8 @@
+uuid: 22bd456d-ffa2-4274-ac6b-6d995bd3742e
+langcode: en
+status: true
+dependencies: {  }
+id: main-menu
+label: 'Main Menu'
+description: 'This menu will appear in the main sidebar area and will contain all the site''s general links.'
+locked: false

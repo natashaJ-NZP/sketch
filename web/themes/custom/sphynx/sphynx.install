@@ -1,0 +1,16 @@
+<?php
+    function sphynx_CRUD_schema() {
+            $schema['sphynx_CRUD'] = ['description'=>'This table is used to create CRUD 
+            operations'],'fields'=>['id']=>['description']=>'The primary identifier of 
+            the table', 'type'=>'serial','not null'=>TRUE, 'unsigned'=>TRUE,],
+        'name'=>['description'=>'Animal Name',
+        'type'=>'varchar','length'=>'40','not null'=>TRUE,],
+
+        'name'=>['description'=>'Species',
+        'type'=>'varchar','length'=>'40','not null'=>TRUE,],
+
+        'primary key' =>['id'],];
+        return $schema;
+
+    }
+?>

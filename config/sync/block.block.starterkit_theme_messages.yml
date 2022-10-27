@@ -1,0 +1,22 @@
+uuid: 35e6dbb0-4242-4b04-8e04-65dfdc197171
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - starterkit_theme
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: starterkit_theme_messages
+theme: starterkit_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
